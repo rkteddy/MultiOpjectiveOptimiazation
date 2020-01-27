@@ -1,0 +1,11 @@
+{
+    "optimizer": "Adam",
+    "batch_size": 4,
+    "lr": 0.0005,
+    "dataset": "cityscapes",
+    "tasks": ["S", "I", "D"],
+    "normalization_type": "none",
+    "algorithm": "mgda",
+    "use_approximation": true,
+    "scales": {"S":0.333, "I":0.333, "D":0.333}
+}
